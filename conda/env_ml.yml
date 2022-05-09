@@ -1,0 +1,32 @@
+# use command "conda env create -f environment_yml_file.yml" to create an environment from yaml file
+# use command "conda env update --file environment_yml_file.yml --prune" to update/add packages; packages not in the yaml file will be removed if we pass --prune argument 
+
+name: ml
+
+channels:
+  - conda-forge
+  - pytorch  
+  - defaults
+
+dependencies:
+  - python=3.9
+
+  - numpy
+  - matplotlib
+  - seaborn
+  - pandas
+
+  - scikit-learn
+  - lightgbm
+  
+  - pytorch
+  - torchvision
+  - torchaudio
+  
+  - tensorflow
+  - tensorboard
+  
+  - notebook
+  - jupyterlab
+  - nb_conda_kernels
+  - jupyter_contrib_nbextensions
