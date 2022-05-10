@@ -28,9 +28,9 @@ elseif &t_Co < 256
     set nocursorline " looks bad in this mode
 endif
 
-" if &diff
-"     colorscheme foobar
-" endif
+if &diff
+    colorscheme monojai
+endif
 
 
 let g:python_highlight_all = 1
