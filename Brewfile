@@ -1,7 +1,7 @@
 # Taps
 tap 'homebrew/cask'
-tap 'homebrew/cask-fonts'
-tap 'homebrew/cask-versions'
+#tap 'homebrew/cask-fonts'
+#tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 
 
@@ -22,6 +22,7 @@ brew 'git'
 cask 'iterm2'
 cask 'anaconda'
 cask 'visual-studio-code'
+cask 'rectangle' #https://rectangleapp.com/
 
 
 # Apple Store
