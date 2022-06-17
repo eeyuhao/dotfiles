@@ -14,10 +14,16 @@ brew 'zsh-syntax-highlighting' # fish like highlighting for zsh
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'stow'
 brew 'tmux'
+brew 'wget'
+brew 'tree'
 brew 'tldr' # explain "man" with examples
+brew 'bat' #cat alternative
+brew 'exa' #ls alternative
+#brew 'fd' #find alternative
 brew 'git'
 brew 'scala'
 brew 'apache-spark'
+
 
 # Apps
 cask 'iterm2'
