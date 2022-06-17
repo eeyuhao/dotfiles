@@ -10,5 +10,5 @@
 
 ``setup.shell.sh`` is a script for easy simlinking the dotfiles
 
-### All in one script
+### The above two in one script
 Run ``setup_all.sh`` to execute all steps above.
