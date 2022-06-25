@@ -5,14 +5,14 @@ if [ -f "/opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh" ]; the
 fi
 if [ -f "~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh" ]; then 
     source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-if
+fi
 
 if [ -f "/opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" ]; then
     source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 fi
 if [ -f "~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" ]; then 
     source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-if
+fi
 
 # Set Anaconda (installed by Homebrew) path enviornment
 if [ -d "/opt/homebrew/anaconda3" ]; then
@@ -31,7 +31,7 @@ else
     else
         if [ -d "/opt/homebrew/anaconda3/bin" ]; then 
             export PATH="/opt/homebrew/anaconda3/bin:$PATH"
-        if 
+        fi 
     fi
 fi
 unset __conda_setup
