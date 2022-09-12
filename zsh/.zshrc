@@ -16,8 +16,8 @@ fi
 
 # Set Anaconda (installed by Homebrew) path enviornment
 if [ -d "/opt/homebrew/anaconda3" ]; then
-    export PATH="/opt/homebrew/anaconda3/bin:$PATH"  # commented out by conda initialize
-    #export PATH="/usr/local/anaconda3/bin:$PATH"
+    export PATH="/opt/homebrew/anaconda3/bin:$PATH"  
+    # export PATH="/usr/local/anaconda3/bin:$PATH" # commented out by conda initialize
 fi
 
 # >>> conda initialize >>>
