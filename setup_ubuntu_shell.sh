@@ -52,3 +52,10 @@ for program in ${PROGRAMS[@]}; do
   stow -v --target=$HOME $program
   echo "Configuring $program"
 done
+
+# disable gui on boot
+sudo systemctl set-default multi-user
+# enable gui on boot
+# sudo systemctl set-default graphical
+
+
