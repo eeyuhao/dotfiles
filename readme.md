@@ -8,7 +8,10 @@
 * Vim
 * Git
 
-``setup_mac_shell.sh`` is a script for easy simlinking the dotfiles. (For Linux, use `setup_linux_shell.sh` as a replacement)
+``setup_mac_shell.sh`` is a script for easy simlinking the dotfiles. (For Fedora, use `setup_fedora_shell.sh` as a replacement)
+
+Note that we could execute `:PlugInstall` in vim to automatially clone/install plugins specified in `.vimrc` if plugins are missing in `vim/.vim/plugged` 
+
 
 ### The above two in one script
 Run ``setup_all.sh`` to execute all steps above.
