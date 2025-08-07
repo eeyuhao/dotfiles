@@ -27,7 +27,7 @@ brew 'apache-spark'
 
 # Apps
 cask 'iterm2'
-cask 'anaconda'
+# cask 'anaconda'
 cask 'visual-studio-code'
 cask 'dash' # Great tool for quick access to documentation on various tools, languages and etc.
 # cask 'audio-hijack' # Dump audio from any application to be recorded, etc.

@@ -44,4 +44,4 @@ for program in ${PROGRAMS[@]}; do
   echo "Configuring $program"
 done
 
-
+curl -LsSf https://astral.sh/uv/install.sh | sh
